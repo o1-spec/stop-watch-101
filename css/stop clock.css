@@ -1,0 +1,67 @@
+* {
+    font-family: sans-serif;
+    color: white;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #3b2470;
+}
+
+.container {
+   margin: 5% auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header2,.header1 {
+    font-size: 4.5rem;
+    font-weight: 500;
+}
+
+p {
+    font-size: 4rem;
+}
+
+button {
+    background-color: #3b2470;
+    border: 2px solid white;
+    border-width: thin;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 1.5rem 2.5rem;
+    margin: 4rem;
+    transition: all 0.5s;
+}
+
+.button {
+    display: flex;
+}
+
+button:hover {
+    background-color: white;
+    color: #000;
+}
+
+@media(max-width: 40em){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media(max-width: 33em){
+    .header2{
+        font-size: 3.6rem;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
